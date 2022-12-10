@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="styles-lilo.css">
+<title>Sign-In</title>
+</head>
+<body>
+
+    <form action="action_page.php" method="post">
+        <div class="container-fluid">
+          <div class="row login">
+            <div class="col sign-in">
+              <div class="row justify-content-center align-items-center sign-in"><img src="images/roller-skating-sign.jpg" alt="Photo of a blue and white roller skating sign" class="img-fluid sign sign-in"></div>
+              <div class="row justify-content-center align-items-center sign-in"><h3 class="justify-content-center align-items-center sign-out text-center mb-3">Welcome Back!</h3></div>
+              <div class="row sign-in">
+                <label for="username" class="sign-in"><b class="sign-in">Username</b></label>
+              </div>
+              <div class="row sign-in">
+                <input type="text" placeholder="Enter Username" name="username" class="sign-in" required>
+              </div>
+              <div class="row sign-in"">
+                <label for="password" class="pt-2 sign-in""><b class="sign-in">Password</b></label>
+              </div>
+              <div class="row sign-in">
+                <input type="password" placeholder="Enter Password" name="password" class="sign-in" required>
+              </div>
+            </div>
+            
+            <div class="col pt-3 buttons">
+              <button type="submit" class="btn-li btn-primary pe-2 me-4">Login</button>
+              <label class="buttons">
+                <input type="checkbox" checked="checked" name="remember"> <b class="buttons rem">Remember me</b>
+              </label>
+            </div>
+
+            <div class="col pt-5 pb-2 fgt-pass">
+              <span class="password fgt-pass">Forgot <a href="#" class="fgt-pass">password?</a></span>
+            </div>
+        </div>
+    </form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

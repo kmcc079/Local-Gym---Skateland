@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@200&display=swap');
+
+*   {
+    background-color: black;
+    /* padding-right: 0px;
+    margin-right: 0px; */
+    /* border: red solid 1px; */
+}
+
+body    {
+    overflow-x: hidden;
+}
+
+a   {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(226, 43, 183) !important;
+    font-weight: bolder;
+}
+
+.navbar {
+    background-color: rgb(59, 27, 238);
+    border-bottom: 1px solid white;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    width: 100%;
+}
+
+.navbar-brand   {
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-menu  {
+    background-color: black;
+}
+
+.dropdown-item  {
+    color: darkgray;
+}
+
+.dropdown-item:hover    {
+    background-color: rgb(18, 18, 18);
+}
+
+h1  {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    width: 100%;
+}
+
+section   {
+    border-bottom: white solid 1px;
+    width: 100%;
+}
+
+#mainSecImg {
+    border-left: white solid 1px;
+    max-width: 100%;
+    height: fit-content;
+}
+
+#break, #break2  {
+    width: 100%;
+    height: 6rem;
+    background-image: linear-gradient(180deg, rgb(171, 27, 238), black);
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.title {
+    color: white;
+    font-family: 'Caveat', cursive;
+    width: 100%;
+}
+
+#break2  {
+    /* width: 100%;
+    height: 6rem; */
+    background-image: linear-gradient(180deg,rgb(238, 27, 175), black);
+    /* border: none;
+    margin: 0px;
+    padding: 0px;
+    color: white; */
+}
+
+#ContactUs  {
+    color: darkgray;
+    font-family: 'Caveat', cursive;
+}
+
+.sign   {
+    border-radius: 50%;
+}
+
+i   {
+    color: greenyellow;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+#email    {
+    border-radius: 0px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary {
+    background-color: greenyellow;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px;
+    border: none;
+}
+
+.btn-primary:hover  {
+    background-color: rgb(59, 27, 238);
+    font-family: 'Poppins', sans-serif;
+}
+
+.credit {
+    color: darkgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: smaller;
+}
+
+
+@media (min-width: 300px)   {
+    html {
+        font-size: 100%; }
+    
+    .title  {
+        font-size: 20px;
+    }   
+
+    #break, #break2  {
+        font-size: 20px;
+    }
+    
+    .contact  {
+        margin-bottom: 50px;
+    }
+
+    .newsltr    {
+        font-size: 25px;
+    }
+}    
+
+@media (min-width: 700px)   {
+    .title  {
+        font-size: 25px;
+    }
+
+    #break, #break2  {
+        font-size: 25px;
+    }
+
+    .newsltr    {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1200px)  {
+    html {
+        font-size: 120%; }
+
+    .nav-item   {
+        padding-left: 50px;
+    }
+
+    h1   {
+        color: white;
+        font-size: 100px;
+    }
+
+    .main   {
+        height: 80%;
+    }
+
+    #break, #break2  {
+        font-size: 30px;
+    }
+
+    .title  {
+        font-size: 30px;
+    }
+
+    .newsltr    {
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@200&display=swap');
+
+* {
+    background: linear-gradient(313deg, rgba(59,27,248,1) 27%, rgb(141, 37, 206) 50%, rgba(226,43,183,0.98) 77%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* border: 2px solid red; */
+}
+
+.login  {
+    border: 5px solid greenyellow;
+    background: black;
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in    {
+    background: transparent;
+    color: white;
+}
+
+input::placeholder   {
+    color: darkgrey;
+}
+
+.buttons    {
+    background: transparent;
+}
+
+.fgt-pass    {
+    background: transparent;
+    font-weight: bold;
+}
+
+.fgt-pass a {
+    color: white;
+}
+
+.sign-in    {
+    background: black;
+    color: white;
+}
+
+.logout {
+    color: white;
+    border: 5px solid greenyellow;
+    background: black;
+    width: 50%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign   {
+    border-radius: 50%;
+}
+
+.sign-out    {
+    background: black;
+    color: white;
+}
+
+.btn-lo, .btn-li {
+    background: greenyellow;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px;
+    border: none;
+    margin-right: 0px;
+    /* padding: 0px; */
+}
+
+.btn-lo:hover, .btn-li:hover  {
+    background-color: rgb(59, 27, 238);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (min-width: 300px)   {
+    html {
+        font-size: 100%; }
+/*     
+    .title  {
+        font-size: 20px;
+    }    */
+
+    .newsltr    {
+        font-size: 25px;
+    }
+
+    .login, .logout  {
+        height: 400px;
+        width: 350px;
+        margin-top: 20%;
+    }
+
+    .sign   {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 150px;
+        height: 100px;
+    }
+
+    .btn.lo, .btn-li    {
+        width: 50%;
+        border-radius: 10px;
+    }
+}    
+
+@media (min-width: 700px)   {
+
+    .newsltr    {
+        font-size: 30px;
+    }
+
+    .login  {
+        height: 450px;
+        width: 500px;
+        margin-top: 7%;
+    }
+
+    .logout {
+        height: 400px;
+        width: 500px;
+        margin-top: 7%;
+    }
+
+    .sign   {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .btn-lo, .btn-li    {
+        width: 50%;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 1200px)  {
+    html {
+        font-size: 120%; }
+
+    .newsltr    {
+        font-size: 35px;
+    }
+
+    .login, .logout  {
+        margin-top: 5%;
+        height: 500px;
+        width: 600px;
+    }
+
+    .sign   {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .btn-lo   {
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .btn-li {
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    .rem    {
+        font-size: 14px;
+    }
+}
